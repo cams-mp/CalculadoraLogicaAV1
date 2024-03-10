@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.titulo {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+  
+.calculadora {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 22px 4px rgba(0,0,0,0.15);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  border-radius: 16px;
+  margin: 0 10px;
+  height: 85px;
+  width: auto;
+  max-width: auto;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#display::-webkit-scrollbar {
+  display: block;
+  height: 3px;
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  height: 60px;
+  width: 60px;
+  border: 5;
+  border-radius: 30px;
+  border-style: solid;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.15);
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button#equal {
+  height: 50px;
+  width: 95%;
+  background-color: #a5bcf8;
+  color: #ffffff;
+  font-size: 33px;
+  border: 0;
+}
+
+.calculator {
+  background-color: #d9e9fd;
+}
+
+.calculator button#clear {
+  background-color: #ffffff;
+  color: #949494;
+  border-color: #949494;
+}
+
+.calculator button.operator-group {
+  background-color: #ffffff;
+  color: #8ba6f5;
+  border-color: #82cfff;
+}
+
+.calculator button.operand-group {
+  background-color: #ffffff;
+  color: #8ba6f5;
+  border-color: #82cfff;
+}
+
+.calculator button.btn-invisible {
+  background: 0;
+}
+
+#result {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 100%;
+  border-bottom-left-radius: solid #111111;
+  border-collapse: separate;
+  font-size: 30px;
+  text-align: center;
+  text-indent: 140px;
+}
+
+td {
+  padding: 3px;
+  margin: 1px;
+  border: solid #000 1px;
+  background: #fff;
+  white-space: nowrap;
+  text-align: center;
+ 
+}
+
+#table-test {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+}
