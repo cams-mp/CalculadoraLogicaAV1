@@ -73,8 +73,6 @@ button:hover {
 }
 
 button#equal {
-  height: 50px;
-  width: 95%;
   background-color: #a5bcf8;
   color: #ffffff;
   font-size: 33px;
