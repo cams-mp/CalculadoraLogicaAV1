@@ -1,4 +1,4 @@
-const OPERATORS = ["∼", "∧", "∨", "→", "↔"];
+const OPERATORS = ["∼", "∧", "V", "→", "↔"];
 var expression = "";
 
 function inserir(str) {
